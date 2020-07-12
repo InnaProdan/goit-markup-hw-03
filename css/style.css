@@ -519,7 +519,7 @@ margin-left: 50px;
 .work-example-descriotion {
   background: var(--primary-bcg-color);
 }
-.work-examples-img:hover,
+/* .work-examples-img:hover,
 .work-examples-img:focus,
 .work-example-title:hover,
 .work-example-title:focus,
@@ -528,4 +528,4 @@ margin-left: 50px;
 .work-example-descriotion:hover,
 .work-example-descriotion:focus {
   background: var(--accent-color);
-}
+} */
