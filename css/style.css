@@ -151,10 +151,13 @@ margin-left: 50px;
 }
 .hero {
   background: gold;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .hero-titlel {
   margin-top: 0px;
   margin-bottom: 30px;
+  padding-top: 0px;
 
   font-weight: 900;
   font-size: 44px;
@@ -463,7 +466,14 @@ margin-left: 50px;
 }
 .button-all-projects {
   background: var(--accent-color);
+  color: var(--title-text-color1);
 }
+.portfolio-filtr-items:hover,
+.portfolio-filtr-items:focus {
+  background: var(--accent-color);
+  color: var(--title-text-color1);
+}
+
 /* Карточки работ */
 .work-examples {
   display: flex;
@@ -474,18 +484,17 @@ margin-left: 50px;
   width: 370px;
   /* height: 404px; */
   border: 1px solid #eeeeee;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
+.work-examples-img {
+  width: 100%;
+  height: 294px;
+}
+
 .work-examples li:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 .work-examples li:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
-.portfolio-filtr-items:hover,
-.portfolio-filtr-items:focus {
-  background: var(--accent-color);
 }
 
 .wrapper-for-work-examples-carts {
@@ -519,13 +528,8 @@ margin-left: 50px;
 .work-example-descriotion {
   background: var(--primary-bcg-color);
 }
-/* .work-examples-img:hover,
-.work-examples-img:focus,
-.work-example-title:hover,
-.work-example-title:focus,
-.work-example-type:hover,
-.work-example-type:focus,
-.work-example-descriotion:hover,
-.work-example-descriotion:focus {
-  background: var(--accent-color);
-} */
+.work-examples-items:hover,
+.work-examples-items:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
